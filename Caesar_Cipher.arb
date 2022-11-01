@@ -3,8 +3,8 @@ def CaesarCipher (text, shift);
         char_code = text[i].ord 
 
         (a, z) = case char_code 
-        when 97..122 then [97, 122]  #a-z 
-        when 65..90 then [65, 90]  #A-Z 
+        when 97..122 then [97, 122]  #a-z These are the ASCII numvbers for lower case  
+        when 65..90 then [65, 90]  #A-Z These are the ASCII numbers for upper case 
      end 
 
      rotate = shift > 0 ? 26 : -26 
