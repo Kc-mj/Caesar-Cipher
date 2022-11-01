@@ -1,2 +1,4 @@
 def CaesarCipher (text, shift); 
     for i in 0... text.length do 
+        char_code = text[i].ord 
+        
